@@ -1,0 +1,108 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(234, 255, 178);
+
+}
+
+.app-description {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.app-description h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.app-description p {
+    font-size: 20px;
+}
+
+.search-form {
+    white-space: nowrap;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-form label {
+    font-size: 25px
+}
+
+#title, #year {
+    margin: 0px 20px 0px 10px;
+    background-color: rgb(244, 255, 212);
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 200px;
+    min-width: 130px;
+    padding: 6px;
+}
+
+.search-form button {
+    background-color: rgb(244, 255, 212);
+    border-radius: 50px;
+    padding: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: rgb(234, 255, 178);
+}
+
+.movie-info {
+    border-radius: 25px;
+    margin: 70px 13%;
+}
+
+.title-release-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#movie-title {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+#release-date {
+    font-size: 24px;
+}
+
+.other-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#movie-banner {
+    flex: 0 1 auto;
+    margin: 0px 120px 20px 120px;
+    width: 280px;
+    height: 350px;
+    min-width: 250px;
+    min-height: 300px;
+}
+
+.text-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 30px;
+    text-align: justify;
+    font-size: 22px; 
+}
+
+.text-info p {
+    margin-bottom: 0px;
+}
